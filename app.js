@@ -1,5 +1,6 @@
 document.getElementById('guessButton').onclick = function() {
     let numberInput = document.getElementById('numberInput').value;
+    console.log(numberInput);
     let randomNumber = Math.floor(Math.random() * 10) + 1;
     let message;
 
@@ -10,4 +11,4 @@ document.getElementById('guessButton').onclick = function() {
     }
 
     document.getElementById('message').textContent = message;
-}
+};
