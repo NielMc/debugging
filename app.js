@@ -1,5 +1,5 @@
-document.getElementById('guessButton').onclick = function() {
-    let numberInput = document.getElementById('numberImput').value;
+document.getElementById('guess-button').onclick = function() {
+    let numberInput = document.getElementById('number-imput').value;
     console.log(numberInput);
     let randomNumber = Math.floor(Math.random() * 10) + 1;
     let message;
